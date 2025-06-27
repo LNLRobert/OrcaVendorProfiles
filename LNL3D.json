@@ -9,13 +9,31 @@
             "sub_path": "machine/LNL3D D3 Vulcan.json"
         },
         {
-            "name": "LNL3D_D3_Vulcan_Mirror_Mode",
-            "sub-path": "machine/LNL3D D3 Vulcan MIRROR MODE.json"
+            "name": "LNL3D D3-Vulcan IDEX 300",
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300.json"
         },
         {
-            "name": "LNL3D-D3-Vulcan-Duplication-Mode",
-            "sub-path": "machine/LNL3D D3 Vulcan DUPLICATION MODE.json"
+            "name": "LNL3D D3-Vulcan IDEX 300 MIRROR MODE",
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 MIRROR MODE.json"
         },
+        {
+            "name": "LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE",
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE.json"
+        },
+
+        {
+            "name": "LNL3D D5-Vulcan IDEX 500",
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500.json"
+        },
+        {
+            "name": "LNL3D D5-Vulcan IDEX 500 MIRROR MODE",
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 MIRROR MODE.json"
+        },
+        {
+            "name": "LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE",
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE.json"
+        },
+
         {
             "name": "LNL3D-D5-Vulcan",
             "sub_path": "machine/LNL3D D5 Vulcan.json"
@@ -92,6 +110,47 @@
             "name": "fdm_lnl3d_klipper",
             "sub_path":"machine/fdm_lnl3d_klipper.json"
         },
+
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.6 nozzle.json"
+        },
+
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.6 nozzle.json"
+        },
+
+
+
+
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 MIRROR MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 MIRROR MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 MIRROR MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 MIRROR MODE 0.6 nozzle.json"
+        },
+
+
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE 0.6 nozzle.json"
+        },
+
         {
             "name":"LNL3D D3 Vulcan 0.4 nozzle", 
             "sub_path": "machine/LNL3D D3 Vulcan 0.4 nozzle.json"

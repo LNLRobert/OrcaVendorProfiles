@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "LNL3D D3-Vulcan IDEX 300 MIRROR MODE",
+    "model_id": "D3-Vulcan_IDEX_300_MIRROR_MODE",
+    "nozzle_diameter": "0.4;0.6",
+    "machine_tech": "FFF",
+    "family": "LNL3D",
+    "bed_model": "",
+    "bed_texture": "",
+    "hotend_model": "",
+    "default_materials": ""
+}
