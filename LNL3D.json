@@ -1,12 +1,20 @@
 {
     "name": "LNL3D",
-    "version":  "00.02.01.25",
+    "version":  "00.03.01.01",
     "force_update": "0",
     "description": "LNL3D test configurations",
     "machine_model_list": [
         {
             "name": "LNL3D-D3-Vulcan",
             "sub_path": "machine/LNL3D D3 Vulcan.json"
+        },
+        {
+            "name": "LNL3D_D3_Vulcan_Mirror_Mode",
+            "sub-path": "machine/LNL3D D3 Vulcan MIRROR MODE.json"
+        },
+        {
+            "name": "LNL3D-D3-Vulcan-Duplication-Mode",
+            "sub-path": "machine/LNL3D D3 Vulcan DUPLICATION MODE.json"
         },
         {
             "name": "LNL3D-D5-Vulcan",

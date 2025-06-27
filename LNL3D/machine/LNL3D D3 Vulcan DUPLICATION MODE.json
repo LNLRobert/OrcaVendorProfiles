@@ -1,0 +1,20 @@
+{
+    "type": "machine_model",
+    "name": "LNL3D D3 Vulcan DUPLICATION MODE",
+    "model_id": "LNL3D-D3-Vulcan-Duplication-Mode",
+    "nozzle_diameter": "0.4;0.6",
+    "family": "LNL3D",
+    "hotend_model": "",
+    "machine_tech": "FFF",
+    "default_materials": "LNL3D Generic PLA; LNL3D Generic TPU",
+    "bed_model": "",
+    "bed_texture": "",
+    "thumbnails": "350x350/PNG, 64x64/PNG",
+    "printable_area": [
+        "0x0",
+        "140x0",
+        "140x300",
+        "0x300"
+    ],
+    "printable_height": "300"
+}
