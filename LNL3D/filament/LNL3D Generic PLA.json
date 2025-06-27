@@ -1,0 +1,29 @@
+{
+	"type": "filament",
+	"filament_id": "GFL99",
+	"setting_id": "GFSA04",
+	"name": "LNL3D Generic PLA",
+	"from": "system",
+	"instantiation": "true",
+	"inherits": "fdm_filament_pla",
+	"filament_flow_ratio": ["0.98"],
+	"filament_max_volumetric_speed": ["10"],
+	"slow_down_layer_time": ["8"],
+	"compatible_printers": [
+		"LNL3D D3 Vulcan 0.4 nozzle",
+        "LNL3D D3 Vulcan 0.6 nozzle",
+        "LNL3D D3 Vulcan 0.8 nozzle",
+        "LNL3D D3 Vulcan 1.0 nozzle",
+        "LNL3D D3 Vulcan 1.2 nozzle",
+        "LNL3D D5 Vulcan 0.4 nozzle",
+        "LNL3D D5 Vulcan 0.6 nozzle",
+        "LNL3D D5 Vulcan 0.8 nozzle",
+        "LNL3D D5 Vulcan 1.0 nozzle",
+        "LNL3D D5 Vulcan 1.2 nozzle",
+        "LNL3D D6 Vulcan 0.4 nozzle",
+        "LNL3D D6 Vulcan 0.6 nozzle",
+        "LNL3D D6 Vulcan 0.8 nozzle",
+        "LNL3D D6 Vulcan 1.0 nozzle",
+        "LNL3D D6 Vulcan 1.2 nozzle"
+	]
+}

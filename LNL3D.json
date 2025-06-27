@@ -1,0 +1,149 @@
+{
+    "name": "LNL3D",
+    "version":  "00.02.01.25",
+    "force_update": "0",
+    "description": "LNL3D test configurations",
+    "machine_model_list": [
+        {
+            "name": "LNL3D-D3-Vulcan",
+            "sub_path": "machine/LNL3D D3 Vulcan.json"
+        },
+        {
+            "name": "LNL3D-D5-Vulcan",
+            "sub_path": "machine/LNL3D D5 Vulcan.json"
+        },
+        {
+            "name": "LNL3D-D6-Vulcan",
+            "sub_path": "machine/LNL3D D6 Vulcan.json"
+        },
+        {
+            "name": "LNL3D-D3-Marlin",
+            "sub-path": "machine/LNL3D D3 Marlin.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name":"fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "fdm_process_lnl3d_common",
+            "sub_path": "process/fdm_process_lnl3d_common.json"
+        },
+        {
+            "name": "fdm_process_lnl3d_marlin",
+            "sub_path": "process/fdm_process_lnl3d_marlin.json"
+        },
+        {
+            "name": "fdm_process_lnl3d_klipper",
+            "sub_path": "process/fdm_process_lnl3d_klipper.json"
+        },
+        {
+            "name": "0.20mm Standard @LNL3D D3",
+            "sub_path": "process/0.20mm Standard @LNL3D D3.json"
+        }
+
+    ],
+    "filament_list": [
+        {
+            "name": "fdm_filament_common",
+            "sub_path": "filament/fdm_filament_common.json"
+        },
+        {
+            "name": "fdm_filament_pla",
+            "sub_path": "filament/fdm_filament_pla.json"
+        },
+        {
+            "name": "fdm_filament_tpu",
+            "sub_path": "filament/fdm_filament_tpu.json"
+        },
+        {
+            "name": "LNL3D Generic PLA",
+            "sub_path": "filament/LNL3D Generic PLA.json"
+        },
+        {
+            "name": "LNL3D Generic TPU",
+            "sub_path": "filament/LNL3D Generic TPU.json"
+        }
+            
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "fdm_lnl3d_common",
+            "sub_path":"machine/fdm_lnl3d_common.json"
+        },
+        {
+            "name": "fdm_lnl3d_marlin", 
+            "sub_path":"machine/fdm_lnl3d_marlin.json"
+        },
+        {
+            "name": "fdm_lnl3d_klipper",
+            "sub_path":"machine/fdm_lnl3d_klipper.json"
+        },
+        {
+            "name":"LNL3D D3 Vulcan 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D3 Vulcan 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3 Vulcan 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D3 Vulcan 0.6 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3 Vulcan 0.8 nozzle", 
+            "sub_path": "machine/LNL3D D3 Vulcan 0.8 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3 Vulcan 1.0 nozzle", 
+            "sub_path": "machine/LNL3D D3 Vulcan 1.0 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3 Vulcan 1.2 nozzle", 
+            "sub_path": "machine/LNL3D D3 Vulcan 1.2 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5 Vulcan 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D5 Vulcan 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5 Vulcan 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D5 Vulcan 0.6 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5 Vulcan 0.8 nozzle", 
+            "sub_path": "machine/LNL3D D5 Vulcan 0.8 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5 Vulcan 1.0 nozzle", 
+            "sub_path": "machine/LNL3D D5 Vulcan 1.0 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5 Vulcan 1.2 nozzle", 
+            "sub_path": "machine/LNL3D D5 Vulcan 1.2 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6 Vulcan 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D6 Vulcan 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6 Vulcan 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D6 Vulcan 0.6 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6 Vulcan 0.8 nozzle", 
+            "sub_path": "machine/LNL3D D6 Vulcan 0.8 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6 Vulcan 1.0 nozzle", 
+            "sub_path": "machine/LNL3D D6 Vulcan 1.0 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6 Vulcan 1.2 nozzle", 
+            "sub_path": "machine/LNL3D D6 Vulcan 1.2 nozzle.json"
+        }
+    ]
+}
+

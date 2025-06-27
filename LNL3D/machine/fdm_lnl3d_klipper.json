@@ -1,0 +1,140 @@
+{
+  "type": "machine",
+  "name": "fdm_lnl3d_klipper",
+  "from": "system",
+  "instantiation": "false",
+  "inherits": "fdm_lnl3d_common",
+  "gcode_flavor": "klipper",
+  "machine_max_acceleration_e": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_acceleration_extruding": [
+    "3000",
+    "3000"
+  ],
+  "machine_max_acceleration_retracting": [
+    "3000",
+    "3000"
+  ],
+  "machine_max_acceleration_travel": [
+    "3500",
+    "3500"
+  ],
+  "machine_max_acceleration_x": [
+    "3000",
+    "3000"
+  ],
+  "machine_max_acceleration_y": [
+    "3000",
+    "3000"
+  ],
+  "machine_max_acceleration_z": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_speed_e": [
+    "60",
+    "60"
+  ],
+  "machine_max_speed_x": [
+    "195",
+    "195"
+  ],
+  "machine_max_speed_y": [
+    "195",
+    "195"
+  ],
+  "machine_max_speed_z": [
+    "10",
+    "10"
+  ],
+  "machine_max_jerk_e": [
+    "5",
+    "5"
+  ],
+  "machine_max_jerk_x": [
+    "5",
+    "5"
+  ],
+  "machine_max_jerk_y": [
+    "5",
+    "5"
+  ],
+  "machine_max_jerk_z": [
+    "0.4",
+    "0.4"
+  ],
+  "machine_min_extruding_rate": [
+    "0",
+    "0"
+  ],
+  "machine_min_travel_rate": [
+    "0",
+    "0"
+  ],
+  "max_layer_height": [
+    "0.32"
+  ],
+  "min_layer_height": [
+    "0.08"
+  ],
+  "printable_height": "300",
+  "extruder_clearance_radius": "65",
+  "extruder_clearance_height_to_rod": "36",
+  "extruder_clearance_height_to_lid": "140",
+  "printer_settings_id": "",
+  "printer_technology": "FFF",
+  "printer_variant": "0.4",
+  "retraction_minimum_travel": [
+    "2"
+  ],
+  "retract_before_wipe": [
+    "80%"
+  ],
+  "retract_when_changing_layer": [
+    "0"
+  ],
+  "retraction_length": [
+    "0.6"
+  ],
+  "retract_length_toolchange": [
+    "2"
+  ],
+  "z_hop": [
+    "0.4"
+  ],
+  "retract_restart_extra": [
+    "0"
+  ],
+  "retract_restart_extra_toolchange": [
+    "0"
+  ],
+  "retraction_speed": [
+    "30"
+  ],
+  "deretraction_speed": [
+    "40"
+  ],
+  "silent_mode": "0",
+  "single_extruder_multi_material": "1",
+  "change_filament_gcode": "",
+  "machine_pause_gcode": "M601 ;pause print",
+  "wipe": [
+    "1"
+  ],
+  "default_filament_profile": [
+    "LNL3D Generic PLA"
+  ],
+  "default_print_profile": "0.20mm Standard @LNL3D D3",
+  "bed_exclude_area": [
+    "0x0"
+  ],
+  "machine_start_gcode": "PRINT_START BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature] ;",
+  "machine_end_gcode": "END_PRINT",
+  "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE;\n [layer_z] G92 E0",
+  "layer_change_gcode": ";AFTER_LAYER_CHANGE;\n [layer_z]",
+  "scan_first_layer": "0",
+  "nozzle_type": "undefine",
+  "auxiliary_fan": "0"
+}

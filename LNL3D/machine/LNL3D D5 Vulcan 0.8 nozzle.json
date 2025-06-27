@@ -1,0 +1,19 @@
+{
+    "type": "machine",
+    "name": "LNL3D D5 Vulcan 0.8 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_lnl3d_klipper",
+    "printer_model": "LNL3D-D5-Vulcan",
+    "default_filament_profile": "LNL3D Generic PLA",
+    "default_print_profile": "0.20mm Standard @LNL3D D3",
+    "nozzle_diameter": [ "0.8" ],
+    "nozzle_type": "undefine",
+    "printable_area": [
+        "0x0",
+        "500x0",
+        "500x500",
+        "0x500"
+    ],
+    "printable_height": "500"
+}

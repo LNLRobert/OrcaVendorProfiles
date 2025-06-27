@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "LNL3D D3 Marlin",
+    "model_id": "LNL3D-D3-Marlin",
+    "nozzle_diameter": "0.4",
+    "family": "LNL3D",
+    "hotend_model": "",
+    "machine_tech": "FFF",
+    "default_materials": "LNL3D Generic PLA",
+    "bed_model": "",
+    "bed_texture": ""
+}

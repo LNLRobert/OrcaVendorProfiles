@@ -1,0 +1,140 @@
+{
+  "type": "machine",
+  "name": "fdm_lnl3d_marlin",
+  "from": "system",
+  "instantiation": "false",
+  "inherits": "fdm_lnl3d_common",
+  "gcode_flavor": "marlin",
+  "machine_max_acceleration_e": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_acceleration_extruding": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_acceleration_retracting": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_acceleration_travel": [
+    "1500",
+    "1500"
+  ],
+  "machine_max_acceleration_x": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_acceleration_y": [
+    "1000",
+    "1000"
+  ],
+  "machine_max_acceleration_z": [
+    "500",
+    "500"
+  ],
+  "machine_max_speed_e": [
+    "60",
+    "60"
+  ],
+  "machine_max_speed_x": [
+    "150",
+    "150"
+  ],
+  "machine_max_speed_y": [
+    "150",
+    "150"
+  ],
+  "machine_max_speed_z": [
+    "8",
+    "8"
+  ],
+  "machine_max_jerk_e": [
+    "5",
+    "5"
+  ],
+  "machine_max_jerk_x": [
+    "5",
+    "5"
+  ],
+  "machine_max_jerk_y": [
+    "5",
+    "5"
+  ],
+  "machine_max_jerk_z": [
+    "0.4",
+    "0.4"
+  ],
+  "machine_min_extruding_rate": [
+    "0",
+    "0"
+  ],
+  "machine_min_travel_rate": [
+    "0",
+    "0"
+  ],
+  "max_layer_height": [
+    "0.32"
+  ],
+  "min_layer_height": [
+    "0.08"
+  ],
+  "printable_height": "300",
+  "extruder_clearance_radius": "65",
+  "extruder_clearance_height_to_rod": "36",
+  "extruder_clearance_height_to_lid": "140",
+  "printer_settings_id": "",
+  "printer_technology": "FFF",
+  "printer_variant": "0.4",
+  "retraction_minimum_travel": [
+    "2"
+  ],
+  "retract_before_wipe": [
+    "80%"
+  ],
+  "retract_when_changing_layer": [
+    "0"
+  ],
+  "retraction_length": [
+    "0.6"
+  ],
+  "retract_length_toolchange": [
+    "2"
+  ],
+  "z_hop": [
+    "0.4"
+  ],
+  "retract_restart_extra": [
+    "0"
+  ],
+  "retract_restart_extra_toolchange": [
+    "0"
+  ],
+  "retraction_speed": [
+    "30"
+  ],
+  "deretraction_speed": [
+    "40"
+  ],
+  "silent_mode": "0",
+  "single_extruder_multi_material": "1",
+  "change_filament_gcode": "M601 ;pause print",
+  "machine_pause_gcode": "M601 ;pause print",
+  "wipe": [
+    "1"
+  ],
+  "default_filament_profile": [
+    "LNL3D Generic PLA"
+  ],
+  "default_print_profile": "0.20mm Standard @LNL3D D3",
+  "bed_exclude_area": [
+    "0x0"
+  ],
+  "machine_start_gcode": "G21; Metric values\n G90; Absolute positioning\n M82; Set extruder to absolute mode\n M107; Start with the fan off\n G28; Move to min endstops\n M117 Final warmup; LCD message\n M140 S[first_layer_bed_temperature]; Set bed temp\n M104 S[first_layer_temperature]; Heat extruder rest of the way after heatbed\n M109 S[first_layer_temperature]; Wait for extruder temp\n G92 E0; Reset extruder\n G1 E15 F1500; Move extruder 15mm\n G1 Z15.0 F3000; Move the header up 15mm\n G1 X40 Y5 Z4 F5000.0; Move to position to prevent hitting clamps or bed\n G1 X50 Y5 Z0.3 F5000.0; Move to start position\n G1 X110 Y5 Z0.3 F1500.0 E15; First purge line\n G1 X70 Y5 Z0.3 F1500.0 E8; Second pass\n M117 Printing...; LCD message",
+  "machine_end_gcode": "M104 T0 S0;left extruder heater off\n M104 T1 S0;right extruder heater off\n M140 S0;heated bed heater off (if you have it)\n G91;relative positioning\n G1 E-1 F30;retract the filament a bit before lifting the nozzle, to release some of the pressure\n G1 Z+0.5 E-5 X-20 Y-20 F9000 ;move Z up a bit and retract filament even more\n G28 X0 Y0 ;move X/Y to min endstops, so the head is out of the way\n M84;steppers off\n G90;absolute positioning",
+  "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE;\n [layer_z] G92 E0",
+  "layer_change_gcode": ";AFTER_LAYER_CHANGE;\n [layer_z]",
+  "scan_first_layer": "0",
+  "nozzle_type": "undefine",
+  "auxiliary_fan": "0"
+}
