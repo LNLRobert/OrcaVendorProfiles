@@ -11,6 +11,7 @@
 	"slow_down_layer_time": ["8"],
 	"compatible_printers": [
 		"LNL3D D3 Vulcan 0.4 nozzle",
+        "LNL3D D3 Vulcan MIRROR MODE 0.6 nozzle",
         "LNL3D D3 Vulcan 0.6 nozzle",
         "LNL3D D3 Vulcan 1.0 nozzle",
         "LNL3D D3 Vulcan 1.2 nozzle",
