@@ -93,10 +93,6 @@
             "sub_path": "machine/LNL3D D3 Vulcan 0.6 nozzle.json"
         },
         {
-            "name":"LNL3D D3 Vulcan 0.8 nozzle", 
-            "sub_path": "machine/LNL3D D3 Vulcan 0.8 nozzle.json"
-        },
-        {
             "name":"LNL3D D3 Vulcan 1.0 nozzle", 
             "sub_path": "machine/LNL3D D3 Vulcan 1.0 nozzle.json"
         },
@@ -113,10 +109,6 @@
             "sub_path": "machine/LNL3D D5 Vulcan 0.6 nozzle.json"
         },
         {
-            "name":"LNL3D D5 Vulcan 0.8 nozzle", 
-            "sub_path": "machine/LNL3D D5 Vulcan 0.8 nozzle.json"
-        },
-        {
             "name":"LNL3D D5 Vulcan 1.0 nozzle", 
             "sub_path": "machine/LNL3D D5 Vulcan 1.0 nozzle.json"
         },
@@ -131,10 +123,6 @@
         {
             "name":"LNL3D D6 Vulcan 0.6 nozzle", 
             "sub_path": "machine/LNL3D D6 Vulcan 0.6 nozzle.json"
-        },
-        {
-            "name":"LNL3D D6 Vulcan 0.8 nozzle", 
-            "sub_path": "machine/LNL3D D6 Vulcan 0.8 nozzle.json"
         },
         {
             "name":"LNL3D D6 Vulcan 1.0 nozzle", 

@@ -12,17 +12,14 @@
 	"compatible_printers": [
 		"LNL3D D3 Vulcan 0.4 nozzle",
         "LNL3D D3 Vulcan 0.6 nozzle",
-        "LNL3D D3 Vulcan 0.8 nozzle",
         "LNL3D D3 Vulcan 1.0 nozzle",
         "LNL3D D3 Vulcan 1.2 nozzle",
         "LNL3D D5 Vulcan 0.4 nozzle",
         "LNL3D D5 Vulcan 0.6 nozzle",
-        "LNL3D D5 Vulcan 0.8 nozzle",
         "LNL3D D5 Vulcan 1.0 nozzle",
         "LNL3D D5 Vulcan 1.2 nozzle",
         "LNL3D D6 Vulcan 0.4 nozzle",
         "LNL3D D6 Vulcan 0.6 nozzle",
-        "LNL3D D6 Vulcan 0.8 nozzle",
         "LNL3D D6 Vulcan 1.0 nozzle",
         "LNL3D D6 Vulcan 1.2 nozzle"
 	]
