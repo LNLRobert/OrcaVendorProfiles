@@ -15,5 +15,6 @@
         "300x300",
         "0x300"
     ],
-    "printable_height": "300"
+    "printable_height": "300",
+    "default_materials": "LNL3D Generic PLA; LNL3D Generic TPU"
 }
