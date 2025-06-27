@@ -130,7 +130,7 @@
   "bed_exclude_area": [
     "0x0"
   ],
-  "machine_start_gcode": "PRINT_START BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature] ;",
+  "machine_start_gcode": "PRINT_START BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP={is_extruder_used[0] ? first_layer_temperature[0] : 0} EXTRUDER_2_TEMP={is_extruder_used[1] ? first_layer_temperature[1] : 0} NOZZLE_SIZE={nozzle_diameter[0]}",
   "machine_end_gcode": "END_PRINT",
   "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE;\n [layer_z] G92 E0",
   "layer_change_gcode": ";AFTER_LAYER_CHANGE;\n [layer_z]",
