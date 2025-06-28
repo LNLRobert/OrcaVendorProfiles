@@ -68,7 +68,7 @@
         "1"
     ],
     "nozzle_temperature": [
-        "220"
+        "210"
     ],
     "temperature_vitrification": [
         "60"
@@ -83,7 +83,7 @@
         "10"
     ],
     "slow_down_layer_time": [
-        "4"
+        "8"
     ],
     "additional_cooling_fan_speed": [
         "70"

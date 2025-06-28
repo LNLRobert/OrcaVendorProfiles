@@ -1,6 +1,6 @@
 {
     "name": "LNL3D",
-    "version":  "00.04.01.01",
+    "version":  "00.04.02.01",
     "force_update": "0",
     "description": "LNL3D test configurations",
     "machine_model_list": [
@@ -98,14 +98,21 @@
             "sub_path": "filament/fdm_filament_tpu.json"
         },
         {
+            "name": "fdm_filament_pet",
+            "sub_path": "filament/fdm_filament_pet.json"
+        },
+        {
             "name": "LNL3D Generic PLA",
             "sub_path": "filament/LNL3D Generic PLA.json"
         },
         {
+            "name": "LNL3D Generic PETG",
+            "sub_path": "filament/LNL3D Generic PETG.json"
+        },
+        {
             "name": "LNL3D Generic TPU",
             "sub_path": "filament/LNL3D Generic TPU.json"
-        }
-            
+        }         
     ],
     "machine_list": [
         {
