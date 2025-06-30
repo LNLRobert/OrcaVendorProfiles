@@ -109,7 +109,48 @@
         {
             "name": "0.30mm Draft-Speed @LNL3D Vulcan 0.4",
             "sub_path": "process/0.30mm Draft-Speed @LNL3D Vulcan 0.4.json"
+        },
+
+
+
+        {
+            "name": "0.15mm Quality @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.15mm Quality @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.20mm Quality @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.20mm Quality @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.20mm Standard @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.20mm Standard @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.20mm Strong @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.20mm Strong @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.30mm Standard @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.30mm Standard @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.30mm Draft-Speed @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.30mm Draft-Speed @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.30mm Strong @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.30mm Strong @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.45mm Draft-Speed @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.45mm Draft-Speed @LNL3D Vulcan 0.6.json"
+        },
+        {
+            "name": "0.45mm Standard @LNL3D Vulcan 0.6",
+            "sub_path": "process/0.45mm Standard @LNL3D Vulcan 0.6.json"
         }
+
+        
 
     ],
     "filament_list": [
