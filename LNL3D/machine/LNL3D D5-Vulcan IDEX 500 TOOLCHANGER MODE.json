@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE",
+    "model_id": "D5-Vulcan_IDEX_500_TOOLCHANGER_MODE",
+    "nozzle_diameter": "0.4;0.6",
+    "machine_tech": "FFF",
+    "family": "LNL3D",
+    "bed_model": "",
+    "bed_texture": "",
+    "hotend_model": "",
+    "default_materials": ""
+}
