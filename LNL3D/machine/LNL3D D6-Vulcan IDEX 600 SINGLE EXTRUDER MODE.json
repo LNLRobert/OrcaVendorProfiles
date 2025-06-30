@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE",
+    "model_id": "D6-Vulcan_IDEX_600_SINGLE_EXTRUDER _MODE",
+    "nozzle_diameter": "0.4;0.6",
+    "machine_tech": "FFF",
+    "family": "LNL3D",
+    "bed_model": "",
+    "bed_texture": "",
+    "hotend_model": "",
+    "default_materials": ""
+}
