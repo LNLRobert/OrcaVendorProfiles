@@ -31,9 +31,12 @@
         "210"
     ],
     "compatible_printers": [
-        "LNL3D D3-Vulcan 0.4 nozzle",
-        "LNL3D D5-Vulcan 0.4 nozzle",
-        "LNL3D D6-Vulcan 0.4 nozzle"
+        "LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.4 nozzle",   
+        "LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.6 nozzle",
+        "LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.4 nozzle",
+        "LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.6 nozzle",
+        "LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.4 nozzle",
+        "LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.6 nozzle"
 
     ]
 }
