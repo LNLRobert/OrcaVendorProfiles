@@ -8,14 +8,14 @@
   "printer_model": "LNL3D D5-Vulcan IDEX 500 MIRROR MODE",
   "printer_variant": "0.4",
   "nozzle_diameter": [
-    "0.4", "0.4"
+    "0.4"
   ],
   "extruder_offset": [
         "0x0",
         "0x0"
   ],
-  "manual_filament_change": "0",
-  "single_extruder_multi_material": "0",
+  "manual_filament_change": "1",
+  "single_extruder_multi_material": "1",
   "printable_area": [
         "0x0",
         "220x0",
