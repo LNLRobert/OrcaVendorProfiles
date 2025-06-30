@@ -55,7 +55,7 @@
   "top_surface_jerk": "5",
   "top_surface_line_width": "100%",
   "top_surface_speed": "60",
-  "travel_acceleration": "3000",
+  "travel_acceleration": "2500",
   "travel_jerk": "5",
   "travel_speed": "190",
   "wall_generator": "arachne",
