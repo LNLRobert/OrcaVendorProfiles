@@ -102,6 +102,7 @@
     "xy_hole_compensation": "0",
     "xy_contour_compensation": "0",
     "enable_arc_fitting": "0",
+    "wall_generator": "classic",
     "compatible_printers": [
     ]
 }
