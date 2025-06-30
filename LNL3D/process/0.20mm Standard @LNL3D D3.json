@@ -3,7 +3,7 @@
   "name": "0.20mm Standard @LNL3D D3",
   "from": "system",
   "instantiation": "true",
-  "inherits": "fdm_process_lnl3d_klipper",
+  "inherits": "fdm_process_common_klipper",
   "bottom_shell_layers": "5",
   "bottom_shell_thickness": "0.8",
   "bottom_surface_pattern": "monotonicline",
