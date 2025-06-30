@@ -65,14 +65,17 @@
     "LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.6 nozzle",
     "LNL3D D3-Vulcan IDEX 300 MIRROR MODE 0.6 nozzle",
     "LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.6 nozzle",
+    "LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE 0.6 nozzle",
 
     "LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE 0.6 nozzle",
     "LNL3D D5-Vulcan IDEX 500 MIRROR MODE 0.6 nozzle",
     "LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE 0.6 nozzle",
+    "LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE 0.6 nozzle",
 
     "LNL3D D6-Vulcan IDEX 600 DUPLICATION MODE 0.6 nozzle",
     "LNL3D D6-Vulcan IDEX 600 MIRROR MODE 0.6 nozzle",
-    "LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.6 nozzle"
+    "LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.6 nozzle",
+    "LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.6 nozzle"
   ],
 	"exclude_object": "1"
 }
