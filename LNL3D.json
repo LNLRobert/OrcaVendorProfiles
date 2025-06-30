@@ -5,10 +5,6 @@
     "description": "LNL3D test configurations",
     "machine_model_list": [
         {
-            "name": "LNL3D-D3-Vulcan",
-            "sub_path": "machine/LNL3D D3 Vulcan.json"
-        },
-        {
             "name": "LNL3D D3-Vulcan IDEX 300",
             "sub_path": "machine/LNL3D D3-Vulcan IDEX 300.json"
         },
@@ -73,15 +69,6 @@
         {
             "name": "LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE",
             "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE.json"
-        },
-
-        {
-            "name": "LNL3D-D5-Vulcan",
-            "sub_path": "machine/LNL3D D5 Vulcan.json"
-        },
-        {
-            "name": "LNL3D-D6-Vulcan",
-            "sub_path": "machine/LNL3D D6 Vulcan.json"
         },
         {
             "name": "LNL3D-D3-Marlin",
@@ -329,61 +316,9 @@
         {
             "name":"LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.6 nozzle", 
             "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.6 nozzle.json"
-        },
-
-
-
-
-
-
-        {
-            "name":"LNL3D D3 Vulcan 0.4 nozzle", 
-            "sub_path": "machine/LNL3D D3 Vulcan 0.4 nozzle.json"
-        },
-        {
-            "name":"LNL3D D3 Vulcan 0.6 nozzle", 
-            "sub_path": "machine/LNL3D D3 Vulcan 0.6 nozzle.json"
-        },
-        {
-            "name":"LNL3D D3 Vulcan 1.0 nozzle", 
-            "sub_path": "machine/LNL3D D3 Vulcan 1.0 nozzle.json"
-        },
-        {
-            "name":"LNL3D D3 Vulcan 1.2 nozzle", 
-            "sub_path": "machine/LNL3D D3 Vulcan 1.2 nozzle.json"
-        },
-        {
-            "name":"LNL3D D5 Vulcan 0.4 nozzle", 
-            "sub_path": "machine/LNL3D D5 Vulcan 0.4 nozzle.json"
-        },
-        {
-            "name":"LNL3D D5 Vulcan 0.6 nozzle", 
-            "sub_path": "machine/LNL3D D5 Vulcan 0.6 nozzle.json"
-        },
-        {
-            "name":"LNL3D D5 Vulcan 1.0 nozzle", 
-            "sub_path": "machine/LNL3D D5 Vulcan 1.0 nozzle.json"
-        },
-        {
-            "name":"LNL3D D5 Vulcan 1.2 nozzle", 
-            "sub_path": "machine/LNL3D D5 Vulcan 1.2 nozzle.json"
-        },
-        {
-            "name":"LNL3D D6 Vulcan 0.4 nozzle", 
-            "sub_path": "machine/LNL3D D6 Vulcan 0.4 nozzle.json"
-        },
-        {
-            "name":"LNL3D D6 Vulcan 0.6 nozzle", 
-            "sub_path": "machine/LNL3D D6 Vulcan 0.6 nozzle.json"
-        },
-        {
-            "name":"LNL3D D6 Vulcan 1.0 nozzle", 
-            "sub_path": "machine/LNL3D D6 Vulcan 1.0 nozzle.json"
-        },
-        {
-            "name":"LNL3D D6 Vulcan 1.2 nozzle", 
-            "sub_path": "machine/LNL3D D6 Vulcan 1.2 nozzle.json"
         }
+
+
     ]
 }
 
