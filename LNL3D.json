@@ -1,6 +1,6 @@
 {
     "name": "LNL3D",
-    "version":  "00.04.02.03",
+    "version":  "00.04.03.01",
     "force_update": "0",
     "description": "LNL3D test configurations",
     "machine_model_list": [
@@ -20,6 +20,13 @@
             "name": "LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE",
             "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE.json"
         },
+        {
+            "name": "LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE",
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE.json"
+        },
+
+
+
 
         {
             "name": "LNL3D D5-Vulcan IDEX 500",
@@ -32,6 +39,10 @@
         {
             "name": "LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE",
             "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 DUPLICATION MODE.json"
+        },
+        {
+            "name": "LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE",
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE.json"
         },
 
 
@@ -46,6 +57,10 @@
         {
             "name": "LNL3D D6-Vulcan IDEX 600 DUPLICATION MODE",
             "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 DUPLICATION MODE.json"
+        },
+        {
+            "name": "LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE",
+            "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE.json"
         },
 
         {
@@ -76,8 +91,24 @@
         },
 
         {
-            "name": "0.20mm Standard @LNL3D D3",
-            "sub_path": "process/0.20mm Standard @LNL3D D3.json"
+            "name": "0.12mm Quality @LNL3D Vulcan 0.4",
+            "sub_path": "process/0.12mm Quality @LNL3D Vulcan 0.4.json"
+        },
+        {
+            "name": "0.20mm Quality @LNL3D Vulcan 0.4",
+            "sub_path": "process/0.20mm Quality @LNL3D Vulcan 0.4.json"
+        },
+        {
+            "name": "0.20mm Standard @LNL3D Vulcan 0.4",
+            "sub_path": "process/0.20mm Standard @LNL3D Vulcan 0.4.json"
+        },
+        {
+            "name": "0.20mm Strong @LNL3D Vulcan 0.4",
+            "sub_path": "process/0.20mm Strong @LNL3D Vulcan 0.4.json"
+        },
+        {
+            "name": "0.30mm Draft-Speed @LNL3D Vulcan 0.4",
+            "sub_path": "process/0.30mm Draft-Speed @LNL3D Vulcan 0.4.json"
         }
 
     ],
@@ -147,6 +178,15 @@
             "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 DUPLICATION MODE 0.6 nozzle.json"
         },
 
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.6 nozzle.json"
+        },
+
 
 
 
@@ -170,6 +210,14 @@
         },
 
 
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE 0.6 nozzle.json"
+        },
 
 
 
@@ -191,6 +239,15 @@
         {
             "name":"LNL3D D6-Vulcan IDEX 600 DUPLICATION MODE 0.6 nozzle", 
             "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 DUPLICATION MODE 0.6 nozzle.json"
+        },
+
+        {
+            "name":"LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.6 nozzle.json"
         },
 
 
