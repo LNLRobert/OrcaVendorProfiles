@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "LNL3D D3-Marlin IDEX 300 TOOLCHANGER MODE",
+    "model_id": "D3-Marlin_IDEX_300_TOOLCHANGER_MODE",
+    "nozzle_diameter": "0.4;0.6",
+    "machine_tech": "FFF",
+    "family": "LNL3D",
+    "bed_model": "",
+    "bed_texture": "",
+    "hotend_model": "",
+    "default_materials": ""
+}
