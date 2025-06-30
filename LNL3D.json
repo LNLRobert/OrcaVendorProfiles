@@ -24,6 +24,10 @@
             "name": "LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE",
             "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE.json"
         },
+        {
+            "name": "LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE",
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE.json"
+        },
 
 
 
@@ -44,6 +48,10 @@
             "name": "LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE",
             "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE.json"
         },
+        {
+            "name": "LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE",
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE.json"
+        },
 
 
         {
@@ -61,6 +69,10 @@
         {
             "name": "LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE",
             "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE.json"
+        },
+        {
+            "name": "LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE",
+            "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE.json"
         },
 
         {
@@ -228,6 +240,16 @@
             "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 TOOLCHANGER MODE 0.6 nozzle.json"
         },
 
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D3-Vulcan IDEX 300 SINGLE EXTRUDER MODE 0.6 nozzle.json"
+        },
+
+
 
 
 
@@ -260,6 +282,15 @@
             "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 TOOLCHANGER MODE 0.6 nozzle.json"
         },
 
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D5-Vulcan IDEX 500 SINGLE EXTRUDER MODE 0.6 nozzle.json"
+        },
+
 
 
 
@@ -289,6 +320,15 @@
         {
             "name":"LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.6 nozzle", 
             "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 TOOLCHANGER MODE 0.6 nozzle.json"
+        },
+
+        {
+            "name":"LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.4 nozzle", 
+            "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.4 nozzle.json"
+        },
+        {
+            "name":"LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.6 nozzle", 
+            "sub_path": "machine/LNL3D D6-Vulcan IDEX 600 SINGLE EXTRUDER MODE 0.6 nozzle.json"
         },
 
 
